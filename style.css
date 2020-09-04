@@ -4,3 +4,30 @@ img {
   margin: inherit;
 
 }
+
+.scrollspy-example {
+    position: relative;
+    width: auto;
+    height: 350px;
+    margin-top: .5rem;
+    overflow: auto;
+  }
+
+.profile_image {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  margin: inherit;
+
+}
+
+.col-sm-8 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: inherit;  
+  width: 1000px;
+  position: center;
+  background-color: #939393;
+}
