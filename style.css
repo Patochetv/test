@@ -1,5 +1,5 @@
 img {
-  width: 100%;
+  width: 70%;
   height: auto;
   margin: inherit;
 
@@ -18,16 +18,45 @@ img {
   width: 200px;
 }
 
-.container {
-  margin: inherit;
+div#text {
+  margin-top: auto;
+  margin-left: 50px;
+  width: 100%;
+}
 
+div#container {
+  float: right;
+  margin-right: 250px;
+  position: relative;
+  box-sizing: 600px 600px;
 }
 
 .col-sm-8 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: inherit;  
   width: 1000px;
-  position: center;
-  background-color: #939393;
+  background-color: grey;
+}
+
+div#discord {
+  float: right;
+  margin-right: 20px;
+}
+
+div#lecteur_twitch, {
+  margin-left: 10px;
+  position: relative;
+  width: 15%;
+}
+
+div#chat_embed {
+  float: right;
+  position: relative;
+  margin-right:385px;
+}
+
+.paypal {
+  float: left;
+  margin-left: 200px;
+  position:relative;
 }
